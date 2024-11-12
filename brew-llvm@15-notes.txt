@@ -1,0 +1,44 @@
+$ brew install llvm@15
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+####################################################################################################################################### 100.0%
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+
+==> Downloading https://ghcr.io/v2/homebrew/core/llvm/15/manifests/15.0.7-1
+####################################################################################################################################### 100.0%
+==> Fetching llvm@15
+==> Downloading https://ghcr.io/v2/homebrew/core/llvm/15/blobs/sha256:14244325d6f28f97dc28b77b668696c113696f8abc2e3c334a886c24a62e9f1b
+####################################################################################################################################### 100.0%
+==> Verifying attestation for llvm@15
+==> Pouring llvm@15--15.0.7.ventura.bottle.1.tar.gz
+
+
+==> Caveats
+To use the bundled libc++ please add the following LDFLAGS:
+  LDFLAGS="-L/usr/local/opt/llvm@15/lib/c++ -Wl,-rpath,/usr/local/opt/llvm@15/lib/c++"
+
+llvm@15 is keg-only, which means it was not symlinked into /usr/local,
+because this is an alternate version of another formula.
+
+If you need to have llvm@15 first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/llvm@15/bin:$PATH"' >> /Users/randymcmillan/.bash_profile
+
+For compilers to find llvm@15 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/llvm@15/lib"
+  export CPPFLAGS="-I/usr/local/opt/llvm@15/include"
+==> Summary
+🍺  /usr/local/Cellar/llvm@15/15.0.7: 5,861 files, 1GB
+Warning: Calling HOMEBREW_NO_INSTALL_CLEANUP=false is deprecated! Use If you wish to enable HOMEBREW_NO_INSTALL_CLEANUP, HOMEBREW_NO_INSTALL_CLEANUP=1
+If you wish to disable HOMEBREW_NO_INSTALL_CLEANUP, HOMEBREW_NO_INSTALL_CLEANUP=
+ instead.
+Warning: Calling HOMEBREW_NO_INSTALL_CLEANUP=false is deprecated! Use If you wish to enable HOMEBREW_NO_INSTALL_CLEANUP, HOMEBREW_NO_INSTALL_CLEANUP=1
+If you wish to disable HOMEBREW_NO_INSTALL_CLEANUP, HOMEBREW_NO_INSTALL_CLEANUP=
+ instead.
+
+$ llvm-gcc -v
+Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+Target: x86_64-apple-darwin22.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+
+

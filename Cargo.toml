@@ -3,23 +3,23 @@ members = [
   "examples/embed",
   "examples/importer",
   "iroh",
-  "iroh-api",
+  #"iroh-api",
   "iroh-bitswap",
-  "iroh-car",
+  #"iroh-car",
   "iroh-embed",
   "iroh-gateway",
   "iroh-localops",
   "iroh-metrics",
   "iroh-one",
   "iroh-p2p",
-  "iroh-resolver",
+  #"iroh-resolver",
   "iroh-rpc-client",
   "iroh-rpc-types",
   "iroh-share",
   "iroh-unixfs",
   "iroh-store",
   "iroh-util",
-  "xtask",
+  #"xtask",
 ]
 # even if all crates are set to edition 2021, we still need to force the
 # resolver to 2
@@ -137,7 +137,7 @@ relative-path = "1.7.2"
 reqwest = { version = "0.11.10", default-features = false}
 rkyv = "0.7.37"
 rlimit = "0.9.0"
-rocksdb = "0.19"
+rocksdb = "0.20"
 ruzstd = "0.3"
 serde = "1"
 serde-error = "0.1.2"
