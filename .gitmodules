@@ -1,0 +1,3 @@
+[submodule "deltachat"]
+	path = deltachat
+	url = git@github.com:RandyMcMillan/deltachat-core-rust.git
