@@ -2821,6 +2821,7 @@ dependencies = [
  "iroh-util",
  "lazy_static",
  "libp2p",
+ "log",
  "names",
  "opentelemetry",
  "opentelemetry-otlp",
