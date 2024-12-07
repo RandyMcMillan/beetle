@@ -4,7 +4,7 @@ authors = ["dignifiedquire <me@dignifiedquire.com>", "b5 <b5@n0.computer>"]
 description = "Iroh specific process management."
 version.workspace = true
 edition.workspace = true
-rust-version.workspace = true
+#rust-version.workspace = true
 license.workspace = true
 repository.workspace = true
 

@@ -6,7 +6,7 @@ license.workspace = true
 readme = "README.md"
 description = "Iroh metrics"
 repository.workspace = true
-rust-version.workspace = true
+#rust-version.workspace = true
 
 [dependencies]
 async-trait.workspace = true

@@ -6,7 +6,7 @@ authors = ["dignifiedquire <me@dignifiedquire.com>"]
 license.workspace = true
 repository.workspace = true
 description = "Implementation of the p2p part of iroh"
-rust-version.workspace = true
+#rust-version.workspace = true
 
 [dependencies]
 ahash.workspace = true
